@@ -6,7 +6,7 @@
 /*   By: mait-elk <mait-elk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 21:43:40 by mait-elk          #+#    #+#             */
-/*   Updated: 2023/12/04 10:42:18 by mait-elk         ###   ########.fr       */
+/*   Updated: 2023/12/19 21:52:04 by mait-elk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,4 +89,8 @@ int		_prt_str(char *s);
 int		_prt_uint(unsigned int i);
 int		_prt_int(int i);
 int		_prt_uinthex(unsigned int ptr,	char form);
+
+
+char	*__nsx_getbits(long long num);
+int		_nsx_putbits(long long number);
 #endif

@@ -12,7 +12,8 @@ SRC = ft_atoi.c ft_itoa.c ft_putendl_fd.c ft_strlcat.c \
 	ft_lstadd_front.c ft_lstiter.c ft_lstnew.c \
 	ft_lstclear.c ft_lstlast.c ft_lstsize.c \
 	ft_prtf_int.c ft_printf.c  ft_prtf_uint.c \
-	ft_prtf_pointer.c ft_prtf_str.c ft_prtf_uinthex.c
+	ft_prtf_pointer.c ft_prtf_str.c ft_prtf_uinthex.c \
+	ft_putbits.c
 SRC_OBJ = $(SRC:.c=.o)
 CFLAGS = -Wall -Wextra -Werror
 
