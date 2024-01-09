@@ -6,7 +6,7 @@
 /*   By: mait-elk <mait-elk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 21:13:31 by mait-elk          #+#    #+#             */
-/*   Updated: 2023/12/04 11:25:57 by mait-elk         ###   ########.fr       */
+/*   Updated: 2024/01/09 21:45:27 by mait-elk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	checkosf(int fd)
 {
-	return (fd < 0 || BUFFER_SIZE <= 0 
+	return (fd < 0 || BUFFER_SIZE <= 0
 		|| read(fd, 0, 0) < 0 || BUFFER_SIZE > 2147483647);
 }
 
