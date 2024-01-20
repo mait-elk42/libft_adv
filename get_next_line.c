@@ -6,11 +6,7 @@
 /*   By: mait-elk <mait-elk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 21:13:31 by mait-elk          #+#    #+#             */
-<<<<<<< HEAD:get_next_line.c
-/*   Updated: 2024/01/20 14:00:20 by mait-elk         ###   ########.fr       */
-=======
-/*   Updated: 2024/01/09 21:45:27 by mait-elk         ###   ########.fr       */
->>>>>>> 48ceabb8f54cbe3ab66e2317105905c94b0249ce:libft-advanced/get_next_line.c
+/*   Updated: 2024/01/20 14:07:21 by mait-elk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
